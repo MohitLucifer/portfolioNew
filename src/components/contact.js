@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-import Particle from "./Particle";
+
 import homeLogo from "../Assets/home-main.svg";
 import { Col, Container, Row } from "react-bootstrap";
 // import "../../.env";
