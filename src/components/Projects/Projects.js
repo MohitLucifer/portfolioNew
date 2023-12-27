@@ -7,6 +7,7 @@ import editor from "../../Assets/Projects/Weather.png";
 import chatify from "../../Assets/Projects/Ecommerce.png";
 import suicide from "../../Assets/Projects/email.png";
 import bitsOfCode from "../../Assets/Projects/chat.png";
+import news from "../../Assets/Projects/new.png";
 
 function Projects() {
   return (
@@ -24,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Ecommerce"
+              title="StoreSavvy ( React.Js,Node.Js,MongoDB ,HTML,CSS,Javascript)"
               description=" An E-Commerce project developed using modern frontend technologies.CRUD operations is used.Functionality of view,search,filter product,Admin panel,User Panel,Payment,Add-to-cart option,JWT authentication.Admins have access to monitor the payments ,orders and users via Dashboard"
               ghLink="https://github.com/MohitLucifer/ECOMMERCE_HOST.git"
               demoLink="https://shiny-gold-tank-top.cyclic.app/"
@@ -70,7 +71,17 @@ function Projects() {
               isBlog={false}
               title="Email spam detection"
               description="Email spam detection involves using machine learning algorithms to classify emails as either spam or non-spam (ham). This project utilizes natural language processing techniques to extract features from emails, such as word frequency or presence of specific keywords. By training models like Naive Bayes, Support Vector Machines (SVM), or deep learning models on labeled datasets."
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/MohitLucifer/Email_sapm"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={news}
+              isBlog={false}
+              title="BuzzBit (React Native,API-Fetch,Node.Js,HTML,CSS)"
+              description="React Native, JavaScript, CSS for front-end development.API fetching to retrieve and display live news updates.Introduced multiple tabs (Discover, News, Profile, Saved)in BuzzBit, offering trending news, easy segment access, user profile management, and article bookmarking for enhanced content discoverability and user convenience"
+              ghLink="https://github.com/MohitLucifer/React-Native-NewsApp"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
