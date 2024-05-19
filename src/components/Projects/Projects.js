@@ -8,6 +8,8 @@ import chatify from "../../Assets/Projects/Ecommerce.png";
 import suicide from "../../Assets/Projects/email.png";
 import bitsOfCode from "../../Assets/Projects/chat.png";
 import news from "../../Assets/Projects/new.png";
+import snappy from "../../Assets/Projects/snappy.png";
+import face from "../../Assets/Projects/face.png";
 
 function Projects() {
   return (
