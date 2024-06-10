@@ -7,9 +7,10 @@ import editor from "../../Assets/Projects/Weather.png";
 import chatify from "../../Assets/Projects/Ecommerce.png";
 import suicide from "../../Assets/Projects/email.png";
 import bitsOfCode from "../../Assets/Projects/chat.png";
-import news from "../../Assets/Projects/new.png";
+import news from "../../Assets/Projects/news.png";
 import snappy from "../../Assets/Projects/snappy.png";
 import face from "../../Assets/Projects/face.png";
+import work_manager from "../../Assets/Projects/work_manager.png";
 
 function Projects() {
   return (
@@ -42,6 +43,28 @@ function Projects() {
               description="It is a app where any person can join and chat with other person which is also present on it.It has real-time chatting system.Using Node.js and Socket.IO, a chat room fosters real-time, multi-user interaction on the web, enabling seamless communication and message exchange among participants across various devices and locations."
               ghLink="https://github.com/MohitLucifer/chatAppHost"
               demoLink="https://snappytalk.netlify.app/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={face}
+              isBlog={false}
+              title="Face Attendence Tracker"
+              description="The face attendance tracker is an AI-based system that uses facial recognition to mark attendance by identifying and verifying student identities from webcam images. It integrates with a Firebase database to manage attendance records and leverages computer vision techniques to process and recognize faces in real-time."
+              ghLink="https://github.com/MohitLucifer/Face-recognition_attendenec"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={work_manager}
+              isBlog={false}
+              title="Work Manager"
+              description="Welcome to Work Manager, your ultimate solution for organizing and managing your work efficiently. Work Manager provides the tools you need to streamline your workflow, track tasks, and collaborate seamlessly with your colleagues."
+              ghLink="https://github.com/MohitLucifer/Work-manager"
+              demoLink="https://work-manager-ten.vercel.app/login"
             />
           </Col>
 
@@ -84,16 +107,6 @@ function Projects() {
               title="BuzzBit (React Native,API-Fetch,Node.Js,HTML,CSS)"
               description="React Native, JavaScript, CSS for front-end development.API fetching to retrieve and display live news updates.Introduced multiple tabs (Discover, News, Profile, Saved)in BuzzBit, offering trending news, easy segment access, user profile management, and article bookmarking for enhanced content discoverability and user convenience"
               ghLink="https://github.com/MohitLucifer/React-Native-NewsApp"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={face}
-              isBlog={false}
-              title="Face Attendence Tracker"
-              description="The face attendance tracker is an AI-based system that uses facial recognition to mark attendance by identifying and verifying student identities from webcam images. It integrates with a Firebase database to manage attendance records and leverages computer vision techniques to process and recognize faces in real-time."
-              ghLink="https://github.com/MohitLucifer/Face-recognition_attendenec"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
