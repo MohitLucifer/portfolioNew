@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/mohit.png";
+import myImg from "../../Assets/Mohit1.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,35 +19,50 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m a passionate software developer and a graduate in <b className= "purple"> Information Technology </b>  from 
+              <b className= "purple"> IIIT Allahabad </b>, 
+              with hands-on experience in building scalable and efficient software solutions.
               <br />
-              <br />I am fluent in classics like
+              <br />I have developed strong command over languages like
               <i>
-                <b className="purple"> C++, Javascript and java. </b>
+                <b className="purple"> C++, Java, JavaScript, and Swift,</b>
+              </i>{" "}
+              and I’ve also worked extensively with frameworks such as{" "}
+              <i>
+                <b className="purple">React.js, React Native, and Node.js.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Machine Learning and Deep Learning.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My areas of interest span across{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
+                  full-stack web development, iOS mobile development, and deep
+                  learning-based computer vision.
                 </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />
+              <br />
+              As an iOS Developer Intern at Motive, I’ve contributed to
+              integrating chatbot support and building cross-platform modules
+              using <b className="purple">
+                Kotlin Multiplatform Mobile (KMM),
+              </b>{" "}
+              while applying <b className="purple">RxSwift</b> to enable
+              reactive architecture and enhance user experience.
+              <br />
+              <br />I also love to work on impactful side projects—like{" "}
+              <b className="purple">eCommerce platforms</b> and{" "}
+              <b className="purple">news apps</b>—and explore innovative ideas
+              such as{" "}
+              <b className="purple">
+                deepfake detection using CNNs and video super-resolution
+                techniques.
+              </b>
+              <br />
+              <br />
+              My goal is to leverage technology to build seamless digital
+              products, solve real-world problems, and continue evolving as a
+              developer.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

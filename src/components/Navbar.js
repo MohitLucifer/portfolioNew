@@ -6,12 +6,13 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-
+import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineBook,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -72,6 +73,16 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/experience-education"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineBook style={{ marginBottom: "2px" }} /> Experience & Education
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -93,13 +104,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                onClick={() => updateExpanded(false)}
+              {/* <Nav.Link
+                href="https://soumyajitblogs.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> ContactUs
-              </Nav.Link>
+                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+              </Nav.Link> */}
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

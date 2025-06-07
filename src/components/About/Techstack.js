@@ -9,15 +9,18 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiSwift,
+  DiDocker,
+  DiAws,
 } from "react-icons/di";
 import {
-  
+  SiRedis,
   SiFirebase,
   SiNextdotjs,
-  
-  
+  SiSolidity,
+  SiPostgresql,
 } from "react-icons/si";
-// import { TbBrandGolang } from "react-icons/tb";
+import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -51,6 +54,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSwift /> 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">  
+        <DiDocker />
       </Col>
     </Row>
   );
