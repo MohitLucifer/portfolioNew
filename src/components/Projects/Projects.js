@@ -31,7 +31,7 @@ function Projects() {
               title="StoreSavvy ( React.Js,Node.Js,MongoDB ,HTML,CSS,Javascript)"
               description=" An E-Commerce project developed using modern frontend technologies.CRUD operations is used.Functionality of view,search,filter product,Admin panel,User Panel,Payment,Add-to-cart option,JWT authentication.Admins have access to monitor the payments ,orders and users via Dashboard"
               ghLink="https://github.com/MohitLucifer/ECOMMERCE_HOST.git"
-              demoLink="https://ecommerce-host.onrender.com/"
+              demoLink="https://storesavvy.netlify.app/"
             />
           </Col>
 
