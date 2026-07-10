@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Produce a fully static export (out/) so the site can be served by
+  // Render's Static Site. Required because this is a client-rendered SPA.
+  output: "export",
   images: {
+    // Static export can't use the Next.js image optimizer, so serve images as-is.
+    unoptimized: true,
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
